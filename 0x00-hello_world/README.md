@@ -5,3 +5,4 @@ Write a script that runs a C file through the preprocessor and save the result i
 Write a C program that prints exactly programming is like a multilingual puzzle
 write a C program that prints exactly with proper grammar, but the outcome is a piece of art
 Write a C program that prints the size of various types on the computer it is compiled and run on
+Write a script that generates the assembly code (Intel syntax) of a C code and save it in an output file
