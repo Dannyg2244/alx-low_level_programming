@@ -19,5 +19,22 @@ int main(void)
 
 	printf("%d is the largest number\n", largest);
 
-	return (0);
-}
+	int largest_number(int a, int b, int c)
+	{
+		int largest;
+
+		if (a > b && c > b)
+		{
+			largest = a;
+		}
+		else if (b > a && a > c)
+		{
+			largest = b;
+		}
+		else
+		{
+			largest = c;
+		}
+
+		return (largest);
+	}
